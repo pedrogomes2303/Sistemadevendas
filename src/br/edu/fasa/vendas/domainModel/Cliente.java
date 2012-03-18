@@ -14,7 +14,7 @@ package br.edu.fasa.vendas.domainModel;
 public class Cliente {
     private int id;
     private String nome;
-
+    
     public Cliente(){
         
     }

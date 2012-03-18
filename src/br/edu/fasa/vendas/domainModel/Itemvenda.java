@@ -13,6 +13,23 @@ public class Itemvenda {
     private int id;
     private int quantidade;
     private float valorUnitario;
+    private String produto;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getProduto() {
+        return produto;
+    }
+
+    public void setProduto(String produto) {
+        this.produto = produto;
+    }
 
     public Itemvenda(){
     }

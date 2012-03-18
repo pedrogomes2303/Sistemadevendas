@@ -15,6 +15,17 @@ public class Produto {
     private float valor;
     private int estoque;
 
+    public Produto(){
+   
+    }
+    
+    public Produto(int i, String nm, float vl, int etq){
+        i=id;
+        nm=nome;
+        vl=valor;
+        etq=estoque;
+    }
+    
     public int getCodigo() {
         return id;
     }

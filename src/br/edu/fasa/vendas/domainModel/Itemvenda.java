@@ -14,6 +14,15 @@ public class Itemvenda {
     private int quantidade;
     private float valorUnitario;
 
+    public Itemvenda(){
+    }
+    public Itemvenda( int i, int qtd, float vuni){
+    i=id;
+    qtd=quantidade;
+    vuni=valorUnitario;
+   
+    }
+    
     public int getCodigo() {
         return id;
     }

@@ -9,10 +9,21 @@ package br.edu.fasa.vendas.domainModel;
  * @author Pedro Gomes
  * @version 1.0
  */
+
+
 public class Cliente {
     private int id;
     private String nome;
 
+    public Cliente(){
+        
+    }
+    
+    public Cliente(int i, String nm){
+        id=i;
+        nm=nome;
+    }
+    
     public int getId() {
         return id;
     }

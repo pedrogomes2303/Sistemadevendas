@@ -9,6 +9,7 @@ package br.edu.fasa.vendas.domainModel;
 import java.sql.Time;
 import java.util.Date;
 import java.util.List;
+import javax.xml.crypto.Data;
 
 /**
  *
@@ -20,6 +21,19 @@ private int id;
 private Time hora;
 private Date data;
 private List<Itemvenda> itens ;
+
+public Venda(){
+}
+
+public Venda(int i, Time hr, Data dt, List<Itemvenda> lit  ){
+    i=id;
+    hr=hora;
+    dt= (Data) data;
+    lit=itens;
+
+}
+
+
 
     public List<Itemvenda> getItens() {
         return itens;

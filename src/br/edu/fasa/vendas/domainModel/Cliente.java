@@ -14,16 +14,7 @@ package br.edu.fasa.vendas.domainModel;
 public class Cliente {
     private int id;
     private String nome;
-
-    public Cliente getCliente() {
-        return cliente;
-    }
-
-    public void setCliente(Cliente cliente) {
-        this.cliente = cliente;
-    }
-    private Cliente cliente;
-    
+     
     
     public Cliente(){
         
@@ -32,7 +23,6 @@ public class Cliente {
     public Cliente(int i, String nm, Cliente cli){
         id=i;
         nm=nome;
-        cli=cliente;
     }
     
     public int getId() {
@@ -50,5 +40,5 @@ public class Cliente {
     public void setNome(String nome) {
         this.nome = nome;
     }
-    
+        
 }
